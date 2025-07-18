@@ -9,6 +9,7 @@
   "keywords": ["logger", "plugin", "voxa"],
   "voxa": {
     "type": "plugin",
+    "password": "123",
     "compatibility": {
       "voxaVersion": "^1.0.0"
     },
