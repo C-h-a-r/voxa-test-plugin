@@ -1,0 +1,25 @@
+{
+  "$schema": https://raw.githubusercontent.com/voxareg/SCHEMAS/refs/heads/main/voxa.plugin.schema.json",
+  "name": "voxa-plugin-logger",
+  "version": "1.0.0",
+  "description": "A plugin that logs every user input to the console.",
+  "author": "Jane Dev",
+  "license": "MIT",
+  "entry": "dist/index.js",
+  "keywords": ["logger", "plugin", "voxa"],
+  "voxa": {
+    "type": "plugin",
+    "compatibility": {
+      "voxaVersion": "^1.0.0"
+    },
+    "hooks": ["onMessage", "onStart"],
+    "configSchema": {
+      "logLevel": {
+        "type": "string",
+        "default": "info",
+        "enum": ["info", "warn", "error"]
+      }
+    }
+  },
+  "dependencies": {}
+}
