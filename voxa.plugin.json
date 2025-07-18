@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/voxareg/SCHEMAS/refs/heads/main/voxa.plugin.schema.json",
+  "$schema": "https://schema.voxa.ink/voxa.plugin.schema.json",
   "name": "voxa-plugin-logger",
   "version": "1.0.0",
   "description": "A plugin that logs every user input to the console.",
@@ -9,7 +9,6 @@
   "keywords": ["logger", "plugin", "voxa"],
   "voxa": {
     "type": "plugin",
-    "password": "123",
     "compatibility": {
       "voxaVersion": "^1.0.0"
     },
