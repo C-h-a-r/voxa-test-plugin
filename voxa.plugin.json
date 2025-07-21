@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.voxa.ink/voxa.plugin.schema.json",
   "name": "voxa-plugin-logger",
-  "version": "1.0.0",
+  "version": "1.4.3",
   "description": "A plugin that logs every user input to the console.",
   "author": "Jane Dev",
   "license": "MIT",
